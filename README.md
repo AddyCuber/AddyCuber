@@ -37,7 +37,7 @@ I am currently moving beyond standard RAG/Chatbot patterns to explore **Compound
 
 **To Be Deployed (TBD)** (Closed Initiative)
 > **Context:** An MSME-registered startup attempt mentored by VCs.
-> **Outcome:** I shut it down.
+> **Outcome:** We shut it down.
 > **Why:** The engineering scope outgrew the value proposition. It taught me the most important lesson in AI: **Constraint**. I now prioritize shipping narrow, reliable tools over broad, undefined platforms.
 
 ---

@@ -1,10 +1,10 @@
 # Hi, I'm Aditya Ray.
 
-I am a final year AI engineer. I don't just train models; I build complete systems around them.
+AI engineer, recent graduate (B.Tech in AI & Data Science). I don't just train models; I build complete systems around them.
 
 My approach is simple: I use competitive environments (hackathons) to stress-test new architectures, and I use micro-SaaS deployments to study how those architectures handle the chaos of the real world.
 
-I am currently moving beyond standard RAG/Chatbot patterns to explore **Compound AI Systems**—specifically, how to make multi-agent pipelines efficient, explainable, and cheap enough to run autonomously.
+I am currently moving beyond standard RAG/Chatbot patterns to explore **Compound AI Systems**: how to make multi-agent pipelines efficient, explainable, and cheap enough to run autonomously. Right now I'm also learning **evals and inference**.
 
 ---
 
@@ -14,7 +14,7 @@ I am currently moving beyond standard RAG/Chatbot patterns to explore **Compound
 **AURA Diagnostics** (Global Digital Health Hackathon)
 > **The Stack:** Multi-agent orchestration, Vector Search (biomedical data), Audit Logging.
 > **The Challenge:** Building a clinical decision support system that doesn't just "guess" but traces every output back to a source (PubMed/OpenFDA).
-> **The Win:** Engineered a traceable reasoning pipeline under extreme time pressure.
+> **The Build:** A traceable reasoning pipeline, built under extreme time pressure.
 
 **Placement Platform @ Echelon** (NMIMS Flagship Hackathon)
 > **Result:** **Winner** (Problem Statement Track) | **3rd Place** (Overall)
@@ -28,12 +28,21 @@ I am currently moving beyond standard RAG/Chatbot patterns to explore **Compound
 ---
 
 ### Production Systems & Experiments
-*Building Startups to learn DevOps.*
+*Building startups to learn DevOps.*
 
 **Epochsee** (Live Micro-SaaS)
 > **Status:** Running in production.
 > **What it is:** An autonomous pipeline that scrapes, filters, and verifies startup hiring signals for students.
 > **Why I built it:** I wanted to study **Long-Running Systems**. It allows me to observe concept drift, automation failures, and the cost/latency tradeoffs of LLM pipelines over weeks, not just minutes.
+
+**Faceless Shorts Pipeline** (Automation Experiment)
+> **What it is:** An attempt to automate YouTube Shorts end to end. Pre-written stories go in; voiceover (Edge TTS), B-roll (Pexels), editing (FFmpeg) and upload run automatically on a GitHub Actions schedule.
+> **Stack:** Python, Edge TTS, Pexels API, FFmpeg, YouTube Data API, Instagram Graph API, GitHub Actions.
+> **What I learned:** The hard parts were OAuth token refresh for unattended runs and keeping the pipeline from republishing stories, not the video editing.
+
+**RailCompute** (Stopped)
+> **What it was:** A platform that automated fine-tuning end to end: describe what the model should learn, approve a plan, and the system handles data prep, training, evals, and packaging the model with a usage guide. 
+> **My role:** I owned the backend. Agent workflows and infrastructure architecture.
 
 **To Be Deployed (TBD)** (Closed Initiative)
 > **Context:** An MSME-registered startup attempt mentored by VCs.
@@ -42,13 +51,13 @@ I am currently moving beyond standard RAG/Chatbot patterns to explore **Compound
 
 ---
 
-### Research Interest: The "Translation Tax"
-Currently, when we chain models together (e.g., GPT-4 → Claude), we force them to communicate in English. This is slow, lossy, and expensive.
+### Past Research Interest: The "Translation Tax"
+*Paused. I explored this earlier and am not actively working on it.*
 
-I am researching **Latent Space Alignment** (Model Stitching).
+When we chain models together (e.g., GPT-4 to Claude), we force them to communicate in English. This is slow, lossy, and expensive.
 
-**The Hypothesis:** We can train lightweight "bridge" layers to translate the internal vector representations of one model (like Llama 3) directly into the input space of another (like Mistral). This would allow agents to communicate via dense vectors, removing the bottleneck of token generation.
+The idea I looked at was **Latent Space Alignment** (Model Stitching): training lightweight "bridge" layers to translate one model's internal vector representations (like Llama 3) into the input space of another (like Mistral), so agents could communicate via dense vectors instead of tokens.
 
 ---
 
-[Email](mailto:rayaditya03@gmail.com) | [LinkedIn](https://www.linkedin.com/in/aditya-ray-03ar/) 
+[Email](mailto:rayaditya03@gmail.com) | [LinkedIn](https://www.linkedin.com/in/aditya-ray-03ar/) | [X](https://x.com/Aditya_Ray_03)
